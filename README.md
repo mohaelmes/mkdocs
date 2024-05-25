@@ -2,6 +2,7 @@
 MkDocs es una herramienta estática de generación de sitios web, ideal para crear documentación y páginas personales
 
 **1. Instalación de MkDocs**
+
 Primero, necesitas instalar MkDocs. Si no tienes pip instalado, instala pip primero.
 ```bash
 pip install mkdocs
@@ -13,6 +14,7 @@ mkdocs --version
 ```
 
 **2. Crear un Nuevo Proyecto MkDocs**
+
 Crea un nuevo proyecto utilizando el comando mkdocs new. Esto generará la estructura básica del proyecto.
 
 ```bash
@@ -21,6 +23,7 @@ cd my-personal-site
 ```
 
 **3. Editar el Archivo de Configuración mkdocs.yml**  
+
 Edita el archivo mkdocs.yml para personalizar tu sitio. Aquí tienes un ejemplo básico:
 
 ```bash
@@ -43,9 +46,11 @@ pip install mkdocs-material
 ```
 
 **4. Crear Contenido**  
+
 Dentro del directorio docs/, puedes crear archivos Markdown (.md) para las diferentes secciones de tu sitio. Por ejemplo:
 
 **5. Servir el Sitio Localmente**  
+
 Para ver tu sitio en acción, puedes servirlo localmente utilizando el siguiente comando:
 
 ```bash
@@ -67,4 +72,5 @@ mkdocs gh-deploy
 ```
 
 ## Personalización Adicional  
+
 Puedes agregar estilos personalizados y scripts adicionales creando archivos CSS y JavaScript en los directorios docs/stylesheets/ y docs/javascripts/ respectivamente, y luego referenciándolos en el archivo mkdocs.yml.
