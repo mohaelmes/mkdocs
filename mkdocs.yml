@@ -1,8 +1,31 @@
 site_name: My Personal Site
+site_description: A personal website built with MkDocs
+site_author: Mohamed
+site_url: https://github.com/mohaelmes
+
 nav:
     - Home: index.md
     - About: about.md
     - Projects: projects.md
     - Contact: contact.md
+
 theme:
     name: material
+    language: en
+    features:
+        - navigation.tabs
+        - navigation.sections
+
+markdown_extensions:
+    - admonition
+    - codehilite
+    - footnotes
+    - meta
+    - toc:
+        permalink: true
+
+extra_css:
+    - 'stylesheets/extra.css'
+
+extra_javascript:
+    - 'javascripts/extra.js'
