@@ -42,5 +42,29 @@ Para instalar el tema material, necesitas instalar el paquete correspondiente:
 pip install mkdocs-material
 ```
 
-5. Crear Contenido
+**4. Crear Contenido**
 Dentro del directorio docs/, puedes crear archivos Markdown (.md) para las diferentes secciones de tu sitio. Por ejemplo:
+
+**5. Servir el Sitio Localmente**
+Para ver tu sitio en acción, puedes servirlo localmente utilizando el siguiente comando:
+
+```bash
+mkdocs serve
+```
+
+Abre tu navegador web y ve a http://127.0.0.1:8000/ para ver tu sitio en funcionamiento.
+
+**6. Desplegar el Sitio**
+Cuando estés listo para desplegar tu sitio, puedes usar el comando mkdocs build para generar los archivos estáticos en el directorio site.
+
+```bash
+mkdocs build
+```
+El contenido del directorio site/ puede ser desplegado en cualquier servidor web. Para desplegar en GitHub Pages, puedes usar el comando gh-deploy de MkDocs:
+
+```bash
+mkdocs gh-deploy
+```
+
+## Personalización Adicional
+Puedes agregar estilos personalizados y scripts adicionales creando archivos CSS y JavaScript en los directorios docs/stylesheets/ y docs/javascripts/ respectivamente, y luego referenciándolos en el archivo mkdocs.yml.
