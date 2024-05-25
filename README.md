@@ -60,6 +60,7 @@ mkdocs serve
 Abre tu navegador web y ve a http://127.0.0.1:8000/ para ver tu sitio en funcionamiento.
 
 **6. Desplegar el Sitio**  
+
 Cuando estés listo para desplegar tu sitio, puedes usar el comando mkdocs build para generar los archivos estáticos en el directorio site.
 
 ```bash
