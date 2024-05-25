@@ -20,7 +20,7 @@ mkdocs new my-personal-site
 cd my-personal-site
 ```
 
-**3. Editar el Archivo de Configuración mkdocs.yml**
+**3. Editar el Archivo de Configuración mkdocs.yml**  
 Edita el archivo mkdocs.yml para personalizar tu sitio. Aquí tienes un ejemplo básico:
 
 ```bash
@@ -42,10 +42,10 @@ Para instalar el tema material, necesitas instalar el paquete correspondiente:
 pip install mkdocs-material
 ```
 
-**4. Crear Contenido**
+**4. Crear Contenido**  
 Dentro del directorio docs/, puedes crear archivos Markdown (.md) para las diferentes secciones de tu sitio. Por ejemplo:
 
-**5. Servir el Sitio Localmente**
+**5. Servir el Sitio Localmente**  
 Para ver tu sitio en acción, puedes servirlo localmente utilizando el siguiente comando:
 
 ```bash
@@ -54,7 +54,7 @@ mkdocs serve
 
 Abre tu navegador web y ve a http://127.0.0.1:8000/ para ver tu sitio en funcionamiento.
 
-**6. Desplegar el Sitio**
+**6. Desplegar el Sitio**  
 Cuando estés listo para desplegar tu sitio, puedes usar el comando mkdocs build para generar los archivos estáticos en el directorio site.
 
 ```bash
@@ -66,5 +66,5 @@ El contenido del directorio site/ puede ser desplegado en cualquier servidor web
 mkdocs gh-deploy
 ```
 
-## Personalización Adicional
+## Personalización Adicional  
 Puedes agregar estilos personalizados y scripts adicionales creando archivos CSS y JavaScript en los directorios docs/stylesheets/ y docs/javascripts/ respectivamente, y luego referenciándolos en el archivo mkdocs.yml.
